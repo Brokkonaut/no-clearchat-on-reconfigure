@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "noclearchatonreconfigure",
+  "version": "${version}",
+
+  "name": "No clearchat on reconfigure",
+  "description": "Don't clear the chat after a reconfiguration",
+  "authors": [
+    "Brokkonaut"
+  ],
+  "contact": {
+    "sources": "https://github.com/Brokkonaut/"
+  },
+
+  "license": "MIT",
+
+  "environment": "client",
+  "entrypoints": {
+  },
+  "mixins": [
+    "noclearchatonreconfigure.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": ">=1.20.2",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
