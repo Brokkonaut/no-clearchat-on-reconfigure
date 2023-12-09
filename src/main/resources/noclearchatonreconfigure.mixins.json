@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "GuiMixin"
+    "MinecraftMixin",
+    "ChatComponentMixin"
   ],
   "injectors": {
     "defaultRequire": 1
